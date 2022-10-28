@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\icon.ico" />
+    <None Remove="Icons\logo.png" />
+    <None Remove="Images\A782R4.jpg" />
+    <None Remove="Images\D374E4.jpeg" />
+    <None Remove="Images\K830R4.jpg" />
+    <None Remove="Images\K849L6.jpeg" />
+    <None Remove="Images\O393R4.jpeg" />
+    <None Remove="Images\picture.png" />
+    <None Remove="Images\S037R9.jpeg" />
+    <None Remove="Images\S983R4.jpg" />
+    <None Remove="Images\Z374R3.jpeg" />
+    <None Remove="Images\Z469T7.jpg" />
+    <None Remove="Images\Z472R4.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\icon.ico" />
+    <Resource Include="Icons\logo.png" />
+    <Resource Include="Images\A782R4.jpg" />
+    <Resource Include="Images\D374E4.jpeg" />
+    <Resource Include="Images\K830R4.jpg" />
+    <Resource Include="Images\K849L6.jpeg" />
+    <Resource Include="Images\O393R4.jpeg" />
+    <Resource Include="Images\picture.png" />
+    <Resource Include="Images\S037R9.jpeg" />
+    <Resource Include="Images\S983R4.jpg" />
+    <Resource Include="Images\Z374R3.jpeg" />
+    <Resource Include="Images\Z469T7.jpg" />
+    <Resource Include="Images\Z472R4.jpeg" />
+  </ItemGroup>
+
+</Project>
